@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="overlay-styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    
+    <title>Your Page Title</title>
+</head>
+
+<body>
+    <div class="top-wrapper"> <img class="top-img" src="media/img/test-img (1).jpg" alt=""> </div>
+    <div class="project-intro">
+        <h1> HIER STEHT EINE ÜBERSCHRIFT</h1>
+        <div class="p-textbox">
+            <div class="p-limiter">
+                <h4>Hier steht dann text über das Projekt, was daran so cool ist und dwas nicht. Wer hat denn alles
+                    mitgenmacht? oder was war denn der objektive für dat ding</h4>
+            </div>
+            <h5>Design <br> Crack <br> Drogas <br> Policia <br> DEATH
+                </h4>
+        </div>
+
+    </div>
+    <section class="p-contentstart">
+        <div class="gridstart">
+            <div class="grid-mid-img">
+                <div class="grid-img-wrapper">
+                    <img class="p-img" src="media/img/test-img (2).jpg" alt="">
+                </div>
+            </div>
+            <div class="quotation">
+                <div class="quote-wrapper"></div>
+                <h1>Hier steht etwas das jemand anderes gesagt hat, deshalb auch ein bisschen größer sodass man es
+                    sofort sieht! </h1>
+            </div>
+
+            <div class="multi-wrapper">
+                <div class="multi-img">
+                    <div> <img src="media/img/bildschirmfoto-2021-07-14-um-22.28.18.png" alt=""></div>
+                    <div> <img src="media/img/bildschirmfoto-2021-07-14-um-22.28.18.png" alt=""></div>
+                    <div> <img src="media/img/bildschirmfoto-2021-07-14-um-22.28.18.png" alt=""></div>
+
+                    
+
+                </div>
+            </div>
+         
+           
+        </div>
+
+    </section>
+<script> const multiWrapper = document.querySelector('.multi-wrapper');
+
+    multiWrapper.addEventListener('wheel', (event) => {
+      if (event.deltaX > 0) {
+        multiWrapper.scrollLeft += 100;
+      } else if (event.deltaX < 0) {
+        multiWrapper.scrollLeft -= 100;
+      }
+    });
+    </script>
+    </body>
+    </html>
